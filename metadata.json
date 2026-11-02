@@ -1,0 +1,6 @@
+{
+  "name": "Hotel Mahdia Palace - Vitrine, Room Service & Spa",
+  "description": "Luxury vitrine, in-room dining, thalasso spa menu, and guest room notices for Hotel Mahdia Palace with integrated multilingual CMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', serif;
+    --font-serif-body: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-arabic: 'Amiri', 'Traditional Arabic', serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #faf8f5;
+    color: #1a2530;
+    overflow-x: hidden;
+  }
+
+  [dir="rtl"] {
+    font-family: var(--font-arabic), var(--font-sans);
+  }
+}
+
+.font-heading {
+  font-family: 'Cinzel', Georgia, serif;
+  letter-spacing: 0.05em;
+}
+
+.font-serif-elegant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-arabic-calligraphic {
+  font-family: 'Amiri', serif;
+}
+
+/* Arabesque Geometric lattice background pattern */
+.bg-arabesque-pattern {
+  background-color: #faf8f5;
+  background-image: radial-gradient(#c5a059 0.65px, transparent 0.65px), radial-gradient(#c5a059 0.65px, #faf8f5 0.65px);
+  background-size: 26px 26px;
+  background-position: 0 0, 13px 13px;
+  background-opacity: 0.15;
+}
+
+.bg-arabesque-dark {
+  background-color: #0b1520;
+  background-image: radial-gradient(rgba(197, 160, 89, 0.15) 0.75px, transparent 0.75px), radial-gradient(rgba(197, 160, 89, 0.15) 0.75px, #0b1520 0.75px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+/* Custom scrollbar for luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5a059;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a98540;
+}
